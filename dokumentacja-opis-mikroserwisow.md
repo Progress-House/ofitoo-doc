@@ -25,7 +25,7 @@ Zapewnienie bezpieczeństwa na poziomie każdej bazy danych, w tym szyfrowanie d
 Utrzymywanie skryptów migracji dla każdej bazy danych, aby łatwo zarządzać zmianami schematu i ułatwić deployment nowych wersji serwisów.
 
 ## Architektura Microserwisów
-## 1. Mikroserwis Produktów
+## 1. Mikroserwis Produktów (product-service)
 
 - Wyszukiwanie produktów na podstawie kodów kreskowych lub nazwy produktu.
 - Dodawanie nowych produktów.
@@ -37,7 +37,7 @@ Może używać NoSQL takiego jak MongoDB dla elastyczności schematu, co ułatwi
 * **Cel**
 Szybkie wyszukiwanie produktów, łatwa aktualizacja i dodawanie nowych produktów.
 
-## 2. Mikroserwis Użytkowników
+## 2. Mikroserwis Użytkowników (user-service)
 - Autentykacja i zarządzanie profilami użytkowników.
 - Aktualizacja danych biometrycznych: data-urodzin, wzrost, waga, płeć.
 - Generowanie tokenów JWT (o ile nie będzie tego robił Keycloak).
@@ -48,10 +48,9 @@ PostgreSQL lub inna relacyjna baza danych dla zarządzania danymi użytkowników
 * **Cel**
 Bezpieczne przechowywanie danych użytkowników, wsparcie dla złożonych zapytań związanych z autentykacją i zarządzaniem profilami.
 
-## 3. Mikroserwis Posiłków
+## 3. Mikroserwis Posiłków (calorie-tracking-service)
 - Śledzenie spożywanych posiłków.
 - Obliczanie spożytych kalorii i składników odżywczych.
-- Tworzenie planów żywieniowych.
 - Monitorowanie postępów.
 
 * **Baza Danych**
@@ -59,7 +58,7 @@ Może korzystać z relacyjnej bazy danych jak PostgreSQL dla przechowywania info
 * **Cel**
 Efektywne zarządzanie dziennikami spożycia, obsługa zapytań agregujących dla raportowania i analiz.
 
-## 4. Mikroserwis Śledzenie Rutynowych Nawyków
+## 4. Mikroserwis Śledzenie Rutynowych Nawyków (habits-tracker-service)
 - Umożliwienie użytkownikom ustawianie własnych nawyków w formie listy do zrobienia.
 - Monitorowanie realizacji celów, powiadamianie przypominkami.
 
@@ -68,15 +67,7 @@ Relacyjna baza danych tak jak MySQL, idealna do przechowywania rzeczy do zrobien
 * **Cel**
 Monitorowanie osiągnięć użytkowników, zarządzanie celami.
 
-## 5. Mikroserwis Wykresów i Statystyk
-- Generowanie wykresów i statystyk na podstawie zgromadzonych danych, analiza trendów.
-
-* **Baza Danych**
-Time-series database jak InfluxDB, która jest zoptymalizowana pod kątem szybkiego zapisu i odczytu danych serii czasowych, idealna do przechowywania danych analitycznych i statystycznych.
-* **Cel**
-Efektywne generowanie wykresów i statystyk w czasie rzeczywistym.
-
-## 6. Gateway API
+## 7. Gateway API
 - Agregacja żądań do mikroserwisów.
 - Zarządzanie endpointami, autoryzacja żądań.
 
@@ -85,7 +76,7 @@ Redis lub inna baza danych typu klucz-wartość do szybkiego cache'owania danych
 * **Cel**
 Zwiększenie wydajności przez redukcję czasu dostępu do często używanych danych, zarządzanie rate limit.
 
-## 7. Frontend Mobilny
+## 8. Frontend Mobilny
 - Komunikacja z mikroserwisami przez API.
 - Skanowanie kodów kreskowych.
 - Dodawanie posiłków, ustawianie celów, przeglądanie wykresów.
