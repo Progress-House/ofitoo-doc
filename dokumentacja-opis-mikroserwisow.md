@@ -25,52 +25,50 @@ Zapewnienie bezpieczeństwa na poziomie każdej bazy danych, w tym szyfrowanie d
 Utrzymywanie skryptów migracji dla każdej bazy danych, aby łatwo zarządzać zmianami schematu i ułatwić deployment nowych wersji serwisów.
 
 ## Architektura Microserwisów
-## 1. Mikroserwis Produktów (product-service)
+## 1. user-service
+- Autentykacja i zarządzanie profilami użytkowników.
+- Aktualizacja danych biometrycznych: data-urodzin, wzrost, waga, płeć.
+- Generowanie tokenów JWT (o ile nie będzie tego robił Keycloak).
+- Zarządzanie sesjami (o ile nie będzie tego robił Keycloak).
+* **Baza Danych**
+  PostgreSQL lub inna relacyjna baza danych dla zarządzania danymi użytkowników, które mogą wymagać transakcyjności i spójności, takich jak informacje o koncie, historii logowań.
+* **Cel**
+  Bezpieczne przechowywanie danych użytkowników, wsparcie dla złożonych zapytań związanych z autentykacją i zarządzaniem profilami.
 
+## 2. product-service
 - Wyszukiwanie produktów na podstawie kodów kreskowych lub nazwy produktu.
 - Dodawanie nowych produktów.
 - Aktualizacja informacji o produktach (nie wymagane pola takie jak kaloryczność na produkt oraz na 100 gram, tłuszcze, węglowodany, białko, błonnik).
 - Możliwość zgłaszania nieprawidłowości w produktach.
-
 * **Baza Danych**
 Może używać NoSQL takiego jak MongoDB dla elastyczności schematu, co ułatwi przechowywanie różnorodnych danych o produktach, w tym kodów kreskowych, składników, wartości odżywczych.
 * **Cel**
 Szybkie wyszukiwanie produktów, łatwa aktualizacja i dodawanie nowych produktów.
 
-## 2. Mikroserwis Użytkowników (user-service)
-- Autentykacja i zarządzanie profilami użytkowników.
-- Aktualizacja danych biometrycznych: data-urodzin, wzrost, waga, płeć.
-- Generowanie tokenów JWT (o ile nie będzie tego robił Keycloak).
-- Zarządzanie sesjami (o ile nie będzie tego robił Keycloak).
-
-* **Baza Danych**
-PostgreSQL lub inna relacyjna baza danych dla zarządzania danymi użytkowników, które mogą wymagać transakcyjności i spójności, takich jak informacje o koncie, historii logowań.
-* **Cel**
-Bezpieczne przechowywanie danych użytkowników, wsparcie dla złożonych zapytań związanych z autentykacją i zarządzaniem profilami.
-
-## 3. Mikroserwis Posiłków (calorie-tracking-service)
+## 3. calorie-tracking-service
 - Śledzenie spożywanych posiłków.
 - Obliczanie spożytych kalorii i składników odżywczych.
 - Monitorowanie postępów.
-
 * **Baza Danych**
 Może korzystać z relacyjnej bazy danych jak PostgreSQL dla przechowywania informacji o posiłkach i spożyciu, ponieważ dane te często są strukturalne i zależne od relacji.
 * **Cel**
 Efektywne zarządzanie dziennikami spożycia, obsługa zapytań agregujących dla raportowania i analiz.
 
-## 4. Mikroserwis Śledzenie Rutynowych Nawyków (habits-tracker-service)
+## 4. habits-tracker-service
 - Umożliwienie użytkownikom ustawianie własnych nawyków w formie listy do zrobienia.
 - Monitorowanie realizacji celów, powiadamianie przypominkami.
-
 * **Baza Danych**
 Relacyjna baza danych tak jak MySQL, idealna do przechowywania rzeczy do zrobienia i postępów użytkowników, które są ściśle powiązane z danymi użytkownika i posiłkami.
 * **Cel**
 Monitorowanie osiągnięć użytkowników, zarządzanie celami.
 
+# 4. notification-service
+- Umożliwienie wysyłanie smsów i emaili. 
+- Nasłuchuje na kolejce rabbitMQ i asynchronicznie wysyła wiadomości.
+
 ## 7. Gateway API
 - Agregacja żądań do mikroserwisów.
 - Zarządzanie endpointami, autoryzacja żądań.
-
 * **Baza Danych**
 Redis lub inna baza danych typu klucz-wartość do szybkiego cache'owania danych sesji, tokenów JWT, limitów zapytań oraz tymczasowych danych o błędach.
 * **Cel**
