@@ -1,10 +1,11 @@
-Architecture decision record (ADR) to mały dokument do opisywania decyzji architektonicznych. 
+## Architecture decision record (ADR)
+To mały dokument do opisywania decyzji architektonicznych.
 Każda decyzja jest przechowywana w osobnym pliku ADR z opisem problemu, okoliczności, 
 rozwiązań alternatywnych, wniosków i ostatecznej decyzji.
 Taki rekord jest przechowywany w osobnym dokumencie w katalogu architecture-decision-record.
 
 
-Wzór ADR:
+### Wzór ADR:
 ```
 # Tytuł:
 (krótkie zdanie)
