@@ -45,7 +45,7 @@ Może używać NoSQL takiego jak MongoDB dla elastyczności schematu, co ułatwi
 * **Cel**
 Szybkie wyszukiwanie produktów, łatwa aktualizacja i dodawanie nowych produktów.
 
-## 3. calorie-tracking-service
+## 3. calorie-tracker-service
 - Śledzenie spożywanych posiłków.
 - Obliczanie spożytych kalorii i składników odżywczych.
 - Monitorowanie postępów.
