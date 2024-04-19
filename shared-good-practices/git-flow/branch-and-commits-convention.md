@@ -21,3 +21,7 @@ if we create a branch based on some user-story.
 | test/       | New unit tests, integration tests, performance tests, or correcting previous tests. |
 | chore/      | Dependency version bump.                                                         |
 | devops/     | CI/CD, GitHub Actions, workflows, issue templates, build.yaml, Dockerfile, etc. |
+
+
+**ofitoo-doc** is exempt from adding any branch-type due to the nature of the repository,  
+everything is **doc/** by default so there is no point in adding it.
