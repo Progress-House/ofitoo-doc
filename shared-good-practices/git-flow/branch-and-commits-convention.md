@@ -5,6 +5,7 @@ If for some reason we push straight to the main branch (Develop)
 commits should look like below.
 
 **commit message:** `feat: added a new method to delete users` 
+# todo add information about commits name convention
 
 if we create a branch based on some user-story.  
 
