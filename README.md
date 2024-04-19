@@ -1,4 +1,4 @@
-## oFitoo-documentation
+## oFitoo-doc
 <img src=".resources/img/visualization-of-library.png" width="600" height="300">
 
 Repository serves as a common **"source of truth"** as Documentation As Code (DaC) for the entire **Progress-House/ofitoo project**.  
