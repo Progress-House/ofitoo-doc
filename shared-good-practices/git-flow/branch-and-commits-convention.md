@@ -1,4 +1,4 @@
-## Description of branch types
+## Branch and Commits convention
 
 Commit should be done according with the following instructions.
 If for some reason we push straight to the main branch (Develop)
