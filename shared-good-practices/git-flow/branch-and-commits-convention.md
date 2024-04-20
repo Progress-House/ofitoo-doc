@@ -4,15 +4,15 @@ Commit should be done according with the following instructions.
 If for some reason we push straight to the main branch (Develop)
 commits should look like below.
 
-**commit message:** `feat: added a new method to delete users`
+**commit message:** `feat: add a new method to delete users`
 1. Commits message are written in lower case, 
     the exceptions are file names that are originally capitalized, e.g. README.md, and abbreviations, e.g. ADR.  
 
 2. Commits message do not end with a dot, but separate parts with commas, e.g. added cube, edited cube.  
 
-3. We write commits message in the past tense; for example: added, edited, deleted, moved, translated, bumped, repaired.  
+3. We write commits message in the present tense; for example: add, edit, delete, move, translate, bump, repair.  
 
-4. Provide a clear description of what the commit does. Avoid descriptions like "fixed bug" or "updates".  
+4. Provide a clear description of what the commit does. Avoid descriptions like "fix bug" or "updates".  
 
 5. If the commit is related to specific issues or PR, reference them for example, "Fixes #123" or "Closes #456".  
 
