@@ -18,8 +18,8 @@ commits should look like below.
 
 6. Skip unnecessary words like "just", "simply", "actually", "basically" which don’t add value to the commit message.  
 
-if we create a branch based on some user-story.
-**branch name:** `feat/20-add-new-a-new-method-to-delete-users`  
+if we create a branch based on some user-story.  
+**branch name:** `feat/20-add-new-a-new-method-to-delete-users`   
 
 ### List of All Acceptable Branch Types
 
