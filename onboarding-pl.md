@@ -4,18 +4,19 @@
 
 Witamy na pokładzie, o to rzeczy, które musisz wiedzieć przed dołączeniem do zespołu pracującego nad aplikacją Ofitoo.
 
-### Opis aplikacji i jego docelowych funkcjonalności
+## Opis aplikacji i jego docelowych funkcjonalności
 Ofitoo to aplikacja mobilna, która pomoże ci
 zadbać o zdrowie, monitorować twoje odżywianie oraz osiągać cele związane z dietą i aktywnością fizyczną.  
 Takie jak utrata wagi czy zwiększenie masy mięsniowej.  
 Aplikacja ma łączyć w sobie najlepsze cechy popularnych rozwiązań z takich aplikacji jak MyFitnessPal i Fitatu,  
 jednocześnie oferując prostote i możliwość odłączenia zbędnych dla nas modułów zabierając je z naszego pola widzenia.  
 
-### kwestie pieniężne
-W pełni funkcjonalna aplikacja docelowo ma być darmowa, a koszty związane z utrzymaniem infrastruktury informatycznej  
-pokrywane będą z tak dobrowolnych wpłat typu (postaw nam kawe) + reklamy".  
-Wszelkie prace programistyczne prowadzone są w formie dobrowolnego wolontariatu 
-i chęci uczestnictwa w rozwoju projektu open-source.     
+## Wsparcie Społecznościowe i Finansowanie Open Source
+"Aplikacja, będąca w pełni funkcjonalna, ma być oferowana za darmo.  
+Koszty związane z utrzymaniem infrastruktury informatycznej będą pokrywane z dobrowolnych wpłat,
+takich jak 'postaw nam kawę', oraz z dochodów z reklam oraz sponsoringu.  
+Wszystkie prace programistyczne są realizowane na zasadzie dobrowolnego wolontariatu, 
+z chęcią przyczynienia się do rozwoju projektu open-source."  
 
 ## Wizualizacja aplikacji UI
 
@@ -25,8 +26,6 @@ i chęci uczestnictwa w rozwoju projektu open-source.
   ![img_8.png](.resources/img/onboarding/ofitoo-mobile-visualization.png)
 </details>
 
-
-
 ## Architektura API
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
@@ -35,7 +34,7 @@ i chęci uczestnictwa w rozwoju projektu open-source.
 </details>
 
 
-### Organizacja Github Progress-House
+## Organizacja Github Progress-House
 Projekt jest pierwszym projektem organizacji na Github - Progress House, ale mamy nadzieje ze nie ostatnim :)   
 https://github.com/Progress-House  
 
@@ -45,7 +44,7 @@ https://github.com/Progress-House
 ![img.png](.resources/img/onboarding/gh-organization-progress-house.png)
 </details>
 
-### Discord
+## Discord
 W celu dołączenia do organizacji, i związanego z nią projektu ofitoo kliknij na link do naszego discord'a który
 powinien być podczepiony pod organizacje, i napisz do nas wiadomość na kanale "rekrutacja" lub bezpośrednio do któregoś z leadów projektu.
 <details>
@@ -54,7 +53,7 @@ powinien być podczepiony pod organizacje, i napisz do nas wiadomość na kanale
 ![img_3.png](.resources/img/onboarding/discord-recruitment-channel.png)
 </details>
 
-### Uprawnienia do repozytoriów
+## Uprawnienia do repozytoriów
 Jeżeli zaakceptujemy twoją aplikacje do projektu, w zalezności od swojej roli zostaniesz przydzielony do odpowiedniego teamu na github.  
 Kazdy github'owy team ma nadane odpowiednie uprawnienia READ/WRITE do odpowiednich repozytoriów.  
 np jako java dev bedziesz miał uprawnienia [write] do ofitoo-api, a jako android dev [write] do ofitoo-mobile.
@@ -115,7 +114,7 @@ A także posiadać odpowiednie "labels" dzięki którym jesteśmy w stanie sorto
 "labels" mogą różnić się w zależności od repozytorium, przykładowo label "documentation issue" nie istnieje w ofitoo-doc gdyż
 całe te repozytorium jest jedną wielką dokumentacją.
 
-Podczas wybierania zadań powinniśmy zwracać uwage "labels" jak:
+### Podczas wybierania zadań zwracaj uwage "labels" jak:
 - **blocked by issue** - zadanie może być zblokowane przez inne zadanie
 - **devops issue** - możliwe ze będziemy potrzebować dodatkowych uprawnień admin'a
 - **issue not ready** - zadanie może nie spełniać definition of ready", więcej w linku poniżej.
@@ -183,7 +182,7 @@ mamy do wyboru kilka widoków
 - **🎈 Backlog** - lista dostępnych zadań z backlog'u  
   https://github.com/orgs/Progress-House/projects/9/views/14    
 
-**Issue Flow:**  
+## Issue Flow: 
 - kiedy podejmujecie zadanie lub tworzycie brancha przez github, powinno być   
 przesuwane z kolumny `"Backlog"` do `"In Progress"`  
 
@@ -216,3 +215,9 @@ tak by nie pozostawał dodatkowy commit związany z tą operacją.
 
   ![img_20.png](.resources/img/onboarding/git-flow.png)
 </details>
+
+
+
+# Na wszystkie pytania związane z projektem pytaj nas na kanale Discord. Witaj w zespole :)
+
+![img.png](.resources/img/onboarding/welcome-on-board.png)
