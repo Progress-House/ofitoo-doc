@@ -1,1 +1,0 @@
-# todo about ofitoo-team, ofitoo-admin, ofitoo-devs, ofitoo-QA, ofitoo-backend-devs, ofitoo-mobile-devs
