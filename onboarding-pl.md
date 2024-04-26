@@ -1,6 +1,6 @@
 # onboarding - po polsku
 
-![img.png](.resources/img/onboarding/onboarding-logo.png)
+![img.png](resources/img/onboarding/onboarding-logo.png)
 
 Witamy na pokładzie, o to rzeczy, które musisz wiedzieć przed dołączeniem do zespołu pracującego nad aplikacją Ofitoo.
 
@@ -23,14 +23,14 @@ z chęcią przyczynienia się do rozwoju projektu open-source."
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-  ![img_8.png](.resources/img/onboarding/ofitoo-mobile-visualization.png)
+  ![img_8.png](resources/img/onboarding/ofitoo-mobile-visualization.png)
 </details>
 
 ## Architektura API
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_10.png](.resources/img/onboarding/api-architecture.png)
+![img_10.png](resources/img/onboarding/api-architecture.png)
 </details>
 
 
@@ -41,7 +41,7 @@ https://github.com/Progress-House
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img.png](.resources/img/onboarding/gh-organization-progress-house.png)
+![img.png](resources/img/onboarding/gh-organization-progress-house.png)
 </details>
 
 ## Discord
@@ -50,7 +50,7 @@ powinien być podczepiony pod organizacje, i napisz do nas wiadomość na kanale
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_3.png](.resources/img/onboarding/discord-recruitment-channel.png)
+![img_3.png](resources/img/onboarding/discord-recruitment-channel.png)
 </details>
 
 ## Uprawnienia do repozytoriów
@@ -60,7 +60,7 @@ np jako java dev bedziesz miał uprawnienia [write] do ofitoo-api, a jako androi
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_5.png](.resources/img/onboarding/team-hierarchy.png)
+![img_5.png](resources/img/onboarding/team-hierarchy.png)
 </details>
 
 Teraz gdy masz już wymagane uprawnienia stwórz wygodnym dla ciebie miejscu folder ofitoo,  
@@ -72,7 +72,7 @@ Wystarczy wszystko na raz wkleic w terminal.
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_13.png](.resources/img/onboarding/how-to-clone-repositories.png)
+![img_13.png](resources/img/onboarding/how-to-clone-repositories.png)
 </details>
 
 ```
@@ -87,7 +87,7 @@ git clone https://github.com/Progress-House/ofitoo-infra
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_6.png](.resources/img/onboarding/repositories.png)
+![img_6.png](resources/img/onboarding/repositories.png)
 </details>
 W celu zbudowania każdego z poszczególnych projektów udaj się do pliku README.md w każdym z tych projektów.  
 przykładowo:  
@@ -98,7 +98,7 @@ https://github.com/Progress-House/ofitoo-mobile/blob/develop/README.md
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_7.png](.resources/img/onboarding/sample-readme.png)
+![img_7.png](resources/img/onboarding/sample-readme.png)
 </details>
 
 
@@ -123,7 +123,7 @@ całe te repozytorium jest jedną wielką dokumentacją.
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_11.png](.resources/img/onboarding/issues.png)
+![img_11.png](resources/img/onboarding/issues.png)
 </details>
 
 Jeżeli chcemy się podjąć któregoś z zadań, wchodzimy do odpowiadającego nam zadania i wciskamy "assign yourself"
@@ -131,14 +131,14 @@ Jeżeli chcemy się podjąć któregoś z zadań, wchodzimy do odpowiadającego 
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_14.png](.resources/img/onboarding/feature.png)
+![img_14.png](resources/img/onboarding/feature.png)
 </details>
 
 następnie wciskamy "create branch" 
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_15.png](.resources/img/onboarding/how-to-create-branch-1.png)
+![img_15.png](resources/img/onboarding/how-to-create-branch-1.png)
 </details>
 
 i do wygenerowanej automatycznie nazwy brancha dopisujemy odpowiedni przedrostek zgodnie z naszymi standardami zawartymi tutaj:  
@@ -148,7 +148,7 @@ Prosimy o dokładne przestudiowanie powyzszej dokumentacji.
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_16.png](.resources/img/onboarding/how-to-create-branch-2.png)
+![img_16.png](resources/img/onboarding/how-to-create-branch-2.png)
 </details>
 
 dopisanie feat/ do nazwy brancha gdyż issue zaczyna się od [Feat]: (czyli feature) zgodnie z branch-and-commits-convention  
@@ -156,7 +156,7 @@ dopisanie feat/ do nazwy brancha gdyż issue zaczyna się od [Feat]: (czyli feat
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-![img_17.png](.resources/img/onboarding/how-to-name-branch.png)  
+![img_17.png](resources/img/onboarding/how-to-name-branch.png)  
 i wciskamy Create branch
 </details>
 
@@ -213,11 +213,11 @@ tak by nie pozostawał dodatkowy commit związany z tą operacją.
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
 
-  ![img_20.png](.resources/img/onboarding/git-flow.png)
+  ![img_20.png](resources/img/onboarding/git-flow.png)
 </details>
 
 
 
 # Na wszystkie pytania związane z projektem pytaj nas na kanale Discord. Witaj w zespole :)
 
-![img.png](.resources/img/onboarding/welcome-on-board.png)
+![img.png](resources/img/onboarding/welcome-on-board.png)

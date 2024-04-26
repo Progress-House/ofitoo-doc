@@ -1,5 +1,5 @@
 ## oFitoo-doc
-<img src=".resources/img/visualization-of-library.png" width="600" height="300">
+<img src="resources/img/visualization-of-library.png" width="600" height="300">
 
 Repository serves as a common **"source of truth"** as Documentation As Code (DaC) for the entire **Progress-House/ofitoo project**.  
 The documentation is intended to store knowledge about good practices in the use of GIT version control,  
@@ -13,6 +13,6 @@ a plugin or use of https://www.drawio.com/ as program or web-application is requ
 <details>
   <summary>How to install Diagrams.net plugin</summary>
 
-   <img src=".resources/img/how-to-install-diagrams-net.png" width="800" height="500">
+   <img src="resources/img/how-to-install-diagrams-net.png" width="800" height="500">
 
 </details>
