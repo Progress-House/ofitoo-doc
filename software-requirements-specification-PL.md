@@ -5,7 +5,7 @@
 
 | **Wersja dokumentu** | **Ostatnia aktualizacja** | **autor**     |
 |----------------------|---------------------------|---------------|
-| 0.1                  | 16 maja 2024              | mcblankenburg |
+| 0.2                  | 16 maja 2024              | mcblankenburg |
 
 ## 1. Wprowadzenie
 
@@ -36,10 +36,18 @@ Ofitoo to aplikacja mobilna do śledzenia spożycia kalorii, aktywności fizyczn
 
 ## 3. Wymagania funkcjonalne
 
-### 3.1 Rejestracja i logowanie
-- [ ] Użytkownik może się zarejestrować za pomocą adresu e-mail lub konta społecznościowego (np. Facebook, Google).
-- [ ] Użytkownik może się zalogować za pomocą adresu e-mail i hasła.
-- [ ] Użytkownik może się zalogować za pomocą adresu numeru telefonu
+### 3.1 Tworzenie konta i logowanie
+użytkownik może:
+- utworzyć konto za pomocą:
+  - [ ] numeru telefonu i hasła
+  - [ ] adresu email i hasła
+- zalogować do konta za pomocą:
+  - [ ] adresu e-mail i hasła
+  - [ ] loginu i hasła
+  - [ ] numeru telefonu i hasła
+  - [ ] konta społecznościowego:
+    - [ ] Google (oAuth)
+    - [ ] Facebook (oAuth)
 
 ### 3.2 Dodawanie i zarządzanie posiłkami
 - [ ] Użytkownik może dodawać posiłki poprzez wyszukiwanie w bazie danych za pomocą skanowania kodu kreskowego produktu,
