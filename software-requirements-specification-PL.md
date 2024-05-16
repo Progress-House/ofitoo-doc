@@ -1,5 +1,12 @@
 # Specyfikacja wymagań dla Ofitoo
 
+![img.png](ofitoo-logo.png)
+
+
+| **Wersja dokumentu** | **Ostatnia aktualizacja** | **autor**     |
+|----------------------|---------------------------|---------------|
+| 0.1                  | 16 maja 2024              | mcblankenburg |
+
 ## 1. Wprowadzenie
 
 **Cel dokumentu:**  
