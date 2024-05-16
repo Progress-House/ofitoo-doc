@@ -18,10 +18,14 @@ takich jak 'postaw nam kawę', oraz z dochodów z reklam oraz sponsoringu.
 Wszystkie prace programistyczne są realizowane na zasadzie dobrowolnego wolontariatu, 
 z chęcią przyczynienia się do rozwoju projektu open-source."  
 
-## Wizualizacja aplikacji UI
+## UX/UI Design Aplikacji Mobilnej
 
 <details>
   <summary>[Kliknij by rozwinąć]</summary>
+
+  ![img.png](resources/img/onboarding/ux-ui-mobile-design.png)
+
+  wizualizacja (chatGPT 4.0)
 
   ![img_8.png](resources/img/onboarding/ofitoo-mobile-visualization.png)
 </details>
