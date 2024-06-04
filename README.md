@@ -16,3 +16,12 @@ a plugin or use of https://www.drawio.com/ as program or web-application is requ
    <img src="resources/img/how-to-install-diagrams-net.png" width="800" height="500">
 
 </details>
+
+In order to be able to edit and display the .bpmn extension, install
+a plugin or use of https://demo.bpmn.io/ as web-application
+<details>
+  <summary>How to install BPMN Viewer plugin</summary>
+
+   <img src="resources/img/how-to-install-bpmn-plugin.png" width="800" height="500">
+
+</details>
